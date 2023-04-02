@@ -1,0 +1,184 @@
+{
+    "lang": {
+        "days": {
+            "sunday": "日",
+            "monday": "月",
+            "tuesday": "火",
+            "wednesday": "水",
+            "Thursday": "木",
+            "friday": "金",
+            "saturday": "土"
+        },
+        "console": {
+            "ready": "ボットが起動しました！（言語: %1）",
+            "kill@eProtection": "おいおい、「kill @e」を実行するためには、詳細なセレクタが必要なんだな。",
+            "disconnecting": "サーバーから切断しています...",
+            "pong": "Pong! | %1ms"
+        },
+        "status": {
+            "text": "%1 ステータス",
+            "offline": "%1 はオフラインです。",
+            "online": "%1 はオンラインです。",
+            "updated": {
+                "name": "Updated",
+                "value": "<t:%1:T> (<t:%1:R>)"
+            },
+            "closed": {
+                "name": "Closed",
+                "value": "<t:%1:f> (<t:%1:R>)"
+            },
+            "footer": "%1",
+            "activity": "Server: - | Ping: - "
+        },
+        "run": {
+            "didChanged": "%1 の deviceSessionId が変更されました。(%2 => %3)",
+            "uuidChanged": "%1 の uuid が変更されました。(%2 => %3)",
+            "join": {
+                "connected": "%1 がサーバーに接続しました。(did: %2)",
+                "haveDiscord": "Discord: %1",
+                "altAccount": "%1 is %2's alt account."
+            },
+            "leave": {
+                "disconnected": "%1 disconnected from the server. (did: %2)",
+                "haveDiscord": "Discord: %1"
+            },
+            "status": {
+                "mobile": "(モバイル)",
+                "text": "%1 ステータス",
+                "online": "%1 はオンラインです。(%2/%3)",
+                "players": {
+                    "name": "プレイヤー",
+                    "value": "%1"
+                },
+                "ping": {
+                    "name": "Ping",
+                    "value": "%1ms"
+                },
+                "tps": {
+                    "name": "TPS",
+                    "value": "%1"
+                },
+                "updated": {
+                    "name": "Updated",
+                    "value": "<t:%1:T> (<t:%1:R>)"
+                },
+                "opened": {
+                    "name": "Opened",
+                    "value": "<t:%1:f> (<t:%1:R>)"
+                }
+            },
+            "topic": "Server: %1/%2 | TPS: %3 | Ping: %4ms | Users: %5 | Updated: <t:%6:T> (<t:%6:R>)",
+            "activity": "Server: %1/%2 | Ping: %3ms",
+            "longRespond": "サーバーが応答するのに %1ms かかりました！"
+        },
+        "connection": {
+            "connected": "サーバーに接続しました。",
+            "open": {
+                "text": "%1 が開きました！",
+                "by": "%1 によって接続されました"
+            }
+        },
+        "disconnect": {
+            "text": "サーバーから切断されました。",
+            "close": {
+                "text": "%1 is now closed!",
+                "footer": "%1 | %2"
+            }
+        },
+        "chat": {
+            "chat": {
+                "console": "%1: %2",
+                "username": "%1",
+                "content": "%1"
+            },
+            "say": {
+                "console": "[%1]: %2",
+                "username": "[%1]",
+                "content": "%1"
+            },
+            "me": {
+                "console": "* %1: %2",
+                "username": "* %1",
+                "content": "%1"
+            },
+            "tell": {
+                "console": "%1: %2",
+                "username": "%1",
+                "content": "%1"
+            },
+            "discord": {
+                "author": "§9%1§r",
+                "content": "%1"
+            }
+        },
+        "commands": {
+            "help": {
+                "text": "ヘルプ",
+                "description": "このボットで使用できるコマンドは以下の通りです。",
+                "command": "コマンド",
+                "support": "サポート",
+                "commands": {
+                    "help": "`/help` ヘルプを表示します。",
+                    "ping": "`/ping` サーバーからの応答速度を表示します。",
+                    "server": "`/server` サーバーのステータスを表示します。",
+                    "list": "`/list` サーバーにいるプレイヤーを表示します。",
+                    "link": "`/link [player|code]` マインクラフトとディスコードのアカウントをリンクします。",
+                    "run": "`/run <command>` コマンドを送信します。",
+                    "player-data": "`/player-data <target>` プレイヤーの情報を取得します。"
+                },
+                "connect": {
+                    "text": "接続",
+                    "command": "`/connect %1:%2` または `/connect localhost:%2` を使用して接続できます。"
+                }
+            },
+            "ping": {
+                "wait": {
+                    "text": "Ping...",
+                    "description": "サーバーからの応答を待っています。"
+                },
+                "pong": {
+                    "text": "Pong!",
+                    "error": "エラー",
+                    "server": "サーバー",
+                    "bot": "ボット",
+                    "ms": "%1ms"
+                }
+            },
+            "server": {},
+            "list": {
+                "wait": "サーバーからの応答を待っています。"
+            },
+            "link": {
+                "denied": "認証が拒否されました。",
+                "linked": {
+                    "now": "あなたのアカウントは「%1」にリンクされました。",
+                    "linked": "あなたは <t:%2:R> に %1 とリンクしています。",
+                    "already": "アカウントはすでに「%1」とリンクされています。"
+                },
+                "howSend": "`/link player:<player>` を使用することであなたのマインクラフトアカウントに認証コードを送信します。",
+                "code": {
+                    "text": "あなたの認証コードは「%1」です。",
+                    "send": "コードが送信されました。",
+                    "failed": "コードが送信できませんでした。互換性のないアドオンが使用されている可能性があります。\n詳細はサポートを受けるかトラブルシューティングご覧ください。",
+                    "offline": "プレイヤーはオンラインである必要があります。"
+                }
+                
+            },
+            "unlink": {
+                "notLinked": "アカウントをリンクしていません。",
+                "unlinked": "アカウントのリンクを解除しました。",
+                "disable": "コマンドが有効化されていません。"
+            },
+            "run": {
+                "send": "コマンドを送信しました。",
+                "executed": "コマンドが実行されました",
+                "ping": "%1ms",
+                "error": "エラー",
+                "kill@eProtection": "**おいおい、**「kill @e」を実行するためには、詳細なセレクタが必要なんだな。"
+            },
+            "player-data": {
+                "noData": "「%1」のデータがありません。"
+            }
+        }
+    }
+}
