@@ -1,0 +1,25 @@
+{
+  "name": "webhook1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Okakajp25/webhook1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Okakajp25/webhook1/issues"
+  },
+  "homepage": "https://github.com/Okakajp25/webhook1#readme",
+  "dependencies": {
+    "discord.js": "^14.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0"
+  }
+}
